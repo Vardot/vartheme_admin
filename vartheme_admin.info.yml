@@ -5,6 +5,7 @@ base theme: adminimal_theme
 name: Vartheme Admin
 description: A simple one-column, tableless, minimalist administration theme
 package: 'Varbase'
+version: 8.x-6.x-dev
 
 regions:
   header: 'Header'
