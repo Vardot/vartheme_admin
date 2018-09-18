@@ -30,7 +30,8 @@
     "composer/installers": "^1.5.0",
     "oomphinc/composer-installers-extender": "^1.1.2",
     "cweagans/composer-patches": "^1.6.4",
-    "drupal/drupal-library-installer-plugin": "^0.3"
+    "drupal/drupal-library-installer-plugin": "^0.3",
+    "drupal/adminimal_theme": "1.3"
   },
   "extra": {
     "branch-alias": {
@@ -41,6 +42,12 @@
       "npm-asset"
     ],
     "enable-patching": true,
-    "composer-exit-on-patch-failure": true
+    "composer-exit-on-patch-failure": true,
+    "patches": {
+      "drupal/adminimal_theme": {
+        "Issue #2696393: Checkboxes with .error class are not usable":
+        "https://www.drupal.org/files/issues/adminimal-checkboxes_with_error-2696393-3.patch"
+      }
+    }
   }
 }
