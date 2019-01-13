@@ -16,6 +16,7 @@ body.adminimal .form-item .description:before,
 body.adminimal .form-wrapper .counter:before {
   margin-right: 0;
   margin-left: 4px;
+  float: right;
 }
 div.vertical-tabs ul li.vertical-tab-button.selected a {
   border-left: 1px solid #cccccc;
