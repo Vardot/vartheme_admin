@@ -64,6 +64,15 @@ body .form-wrapper .counter {
 .details-wrapper {
   padding: 0.75em;
 }
+@media (max-width: 1200px) {
+  .details-wrapper table {
+    table-layout: fixed;
+  }
+  .details-wrapper table .image-preview,
+  .details-wrapper table .image-widget-data {
+    float: none;
+  }
+}
 #edit-created-from,
 #edit-created-to,
 #edit-user-created-from,
