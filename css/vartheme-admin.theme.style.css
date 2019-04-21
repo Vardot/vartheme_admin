@@ -20,6 +20,7 @@ div.vertical-tabs ul li.first a {
 }
 .node-form .field--name-title input {
   font-size: 22px;
+  width: 100%;
 }
 /* Style the description of fields */
 body ul.tips:before,
