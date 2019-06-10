@@ -82,10 +82,3 @@ body .form-wrapper .counter {
 #edit-content-created-to {
   width: 150px;
 }
-
-/* Fix to have a nice display when we are adding a Video Media Embed
-   in the pop-up */
-.adminimal .ui-dialog.ui-widget.ui-widget-content {
-  top: 54.004px !important;
-  left: 43.0029px !important;
-}
