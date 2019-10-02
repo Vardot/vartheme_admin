@@ -29,7 +29,7 @@ div.vertical-tabs {
   }
 }
 
-/* @todo Fix problem in checboxes with adminimal theme + fpa */
+/* $todo Fix problem in checboxes with adminimal theme + fpa */
 .page-admin-people-permissions {
   .dummy-checkbox {
     display: none !important;
@@ -44,15 +44,17 @@ div.vertical-tabs {
 }
 
 /* Style the description of fields */
-body ul.tips:before,
-body div.description:before,
-body .form-item .description:before,
-body .form-wrapper .counter:before {
-  content: "\00bb";
-  font-size: 15px;
-  color: #4fa5ff;
-  margin-right: 4px;
-  float: left;
+body {
+  ul.tips:before,
+  div.description:before,
+  .form-item .description:before,
+  .form-wrapper .counter:before {
+    content: "\00bb";
+    font-size: 15px;
+    color: #4fa5ff;
+    margin-right: 4px;
+    float: left;
+  }
 }
 
 ul.tips,
