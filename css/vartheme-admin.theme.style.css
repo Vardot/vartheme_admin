@@ -95,3 +95,8 @@ body .form-wrapper .counter {
 #edit-content-created-to {
   width: 150px;
 }
+
+.adminimal .ui-dialog.media-library-widget-modal {
+  margin: 0 13%;
+  left: auto !important;
+}
