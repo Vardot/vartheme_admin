@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   theme:
-    - adminimal_theme
+    - claro
     - vartheme_admin
 id: vartheme_admin_local_actions
 theme: vartheme_admin

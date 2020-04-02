@@ -4,7 +4,7 @@ dependencies:
   module:
     - system
   theme:
-    - adminimal_theme
+    - claro
     - vartheme_admin
 id: vartheme_admin_content
 theme: vartheme_admin

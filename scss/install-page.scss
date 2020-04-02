@@ -1,16 +1,24 @@
 body.install-page {
   background-image: url("../images/varbase-bg.jpg");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: cover;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
-  background-attachment: fixed;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: initial;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  background-size: cover !important;
+  background-repeat-x: no-repeat !important;
+  background-repeat-y: no-repeat !important;
+  background-attachment: fixed !important;
+  background-origin: initial !important;
+  background-clip: initial !important;
+  background-color: initial !important;
+  -o-object-fit: cover;
   object-fit: cover;
+
+  .other-lang-warn {
+    display: none;
+
+    .visible {
+      display: block;
+    }
+  }
 
   .logo a {
     background-image: url("../images/vardot-white-logo.png");
@@ -27,9 +35,6 @@ body.install-page {
   .site-version {
     vertical-align: initial !important;
     padding-left: 10px;
-    color: #4192c8;
-    font-weight: bold;
-    font-size: 0.6em;
   }
 }
 
@@ -76,6 +81,19 @@ footer {
 @media (min-width: 48em) {
   .page-title {
     margin-left: 1.3em !important;
-    color: #4192c8;
+  }
+
+  .task-list{
+    li {
+      padding: 0.5em 1em 0.5em 2em;
+    }
+  }
+}
+
+@media screen and (min-width: 38em) {
+  .toolbar-tray-open:not(.toolbar-vertical) .layout-container,
+  body:not(.toolbar-tray-open) .layout-container {
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
 }

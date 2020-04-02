@@ -4,7 +4,7 @@
 A simple one-column, tableless, minimalist administration theme for
  [Varbase](https://www.drupal.org/project/varbase) standard websites.
 
-Based on the [Adminimal - Responsive Administration Theme](https://www.drupal.org/project/adminimal_theme).
+Based on the [Gin](https://www.drupal.org/project/gin).
 
 ### Use With Varbase Distribution:
 This theme is best used with Varbase distribution.
