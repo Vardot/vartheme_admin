@@ -22,6 +22,8 @@ libraries:
   - 'vartheme_admin/global-admin-styling'
   - 'vartheme_admin/global-admin-scripts'
 libraries-override:
+  gin/gin_toolbar: false
+  gin/gin_classic_toolbar: false
   claro/install-page:
     css:
       theme:

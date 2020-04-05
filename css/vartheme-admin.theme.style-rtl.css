@@ -1,6 +1,15 @@
 @import url(//fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-body.gin {
+body {
   font-family: 'Droid Arabic Kufi', sans-serif;
+}
+
+body .action-links .button--primary {
+  font-family: 'Droid Arabic Kufi', sans-serif;
+  line-height: 19px;
+}
+
+body select:focus, body select:hover {
+  background: url("../images/caret-down.svg") no-repeat 2% 64% #fcfcfa;
 }
 
 #yoast-wrapper {

@@ -5,6 +5,7 @@ dependencies:
     - system
   theme:
     - claro
+    - gin
     - vartheme_admin
 id: vartheme_admin_content
 theme: vartheme_admin

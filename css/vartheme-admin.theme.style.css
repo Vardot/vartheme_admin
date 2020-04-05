@@ -1,20 +1,5 @@
-.layout-region-node-secondary .form-item {
-  margin-left: 0.75em;
-  margin-right: 0.75em;
-}
-
-.details-wrapper {
-  padding: 0.75em;
-}
-
-@media (max-width: 1200px) {
-  .details-wrapper table {
-    table-layout: fixed;
-  }
-  .details-wrapper table .image-preview,
-  .details-wrapper table .image-widget-data {
-    float: none;
-  }
+input[type="text"] {
+  max-width: 100%;
 }
 
 #edit-created-from,
