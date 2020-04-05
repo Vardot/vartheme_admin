@@ -3,7 +3,6 @@ status: true
 dependencies:
   theme:
     - claro
-    - gin
     - vartheme_admin
 id: vartheme_admin_primary_local_tasks
 theme: vartheme_admin

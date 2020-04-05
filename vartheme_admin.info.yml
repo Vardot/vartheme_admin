@@ -1,6 +1,6 @@
 name: 'Vartheme Admin'
 type: theme
-base theme: gin
+base theme: claro
 description: 'A simple one-column, tableless, minimalist administration theme'
 core_version_requirement: ^8.8 || ^9
 package: 'Varbase'
@@ -22,8 +22,6 @@ libraries:
   - 'vartheme_admin/global-admin-styling'
   - 'vartheme_admin/global-admin-scripts'
 libraries-override:
-  gin/gin_toolbar: false
-  gin/gin_classic_toolbar: false
   claro/install-page:
     css:
       theme:
