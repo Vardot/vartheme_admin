@@ -1,4 +1,5 @@
 input[type="text"] {
+  width: 100%;
   max-width: 100%;
 }
 
@@ -9,4 +10,24 @@ input[type="text"] {
 #edit-content-created-from,
 #edit-content-created-to {
   width: 150px;
+}
+
+body.path-admin .panel.dashboard-block {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #222330;
+  border: 1px solid rgba(216, 217, 224, 0.8);
+  border-radius: 2px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.block-views-blockvarbase-google-analytics-summary-sessions-and-pageviews .panel__title {
+  display: block;
+}
+
+.block-views-blockvarbase-google-analytics-summary-sessions-and-pageviews .description {
+  padding: 20px;
 }

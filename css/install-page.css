@@ -3,14 +3,14 @@ body.install-page {
   background-position-x: center !important;
   background-position-y: center !important;
   -webkit-background-size: cover !important;
-          background-size: cover !important;
+  background-size: cover !important;
   background-repeat-x: no-repeat !important;
   background-repeat-y: no-repeat !important;
   background-attachment: fixed !important;
   -webkit-background-origin: initial !important;
-          background-origin: initial !important;
+  background-origin: initial !important;
   -webkit-background-clip: initial !important;
-          background-clip: initial !important;
+  background-clip: initial !important;
   background-color: initial !important;
   -o-object-fit: cover;
   object-fit: cover;
@@ -29,13 +29,13 @@ body.install-page .logo a {
   background-position-x: 0px;
   background-position-y: 0px;
   -webkit-background-size: 100% 100%;
-          background-size: 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: initial;
   -webkit-background-origin: initial;
-          background-origin: initial;
+  background-origin: initial;
   -webkit-background-clip: initial;
-          background-clip: initial;
+  background-clip: initial;
   background-color: transparent;
 }
 
