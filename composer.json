@@ -22,7 +22,5 @@
       "url": "https://packages.drupal.org/8"
     }
   },
-  "require": {
-    "drupal/gin": "~3.0"
-  }
+  "require": {}
 }
