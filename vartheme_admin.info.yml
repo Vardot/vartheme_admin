@@ -3,7 +3,7 @@ base theme: adminimal_theme
 name: 'Vartheme Admin'
 description: 'A simple one-column, tableless, minimalist administration theme'
 package: 'Varbase'
-core_version_requirement: ^8 || ^9
+core_version_requirement: ~8 || ~9 || ~10
 regions:
   header: 'Header'
   pre_content: 'Pre-content'
