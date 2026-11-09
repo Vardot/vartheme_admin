@@ -38,7 +38,14 @@ function vartheme_admin_preprocess_install_page(&$variables) {
     $profile_name = $install_state['parameters']['profile'];
   }
 
-  $current_profile_path = drupal_get_path('profile', $profile_name);
+  if (\Drupal::hasService('extension.path.resolver')) {
+    $current_profile_path = \Drupal::service('extension.path.resolver')->getPath('profile', $profile_name);
+  }
+  else {
+    // Drupal < 9.3; drupal_get_path() was removed in Drupal 10.
+    // @phpstan-ignore-next-line
+    $current_profile_path = drupal_get_path('profile', $profile_name);
+  }
   // Profile logo.
   if (file_exists($current_profile_path . '/images/' . $profile_name . '-logo.png')) {
     $variables['profile_logo'] = base_path() . $current_profile_path . '/images/' . $profile_name . '-logo.png';
